@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color: #da9f79;
+  }
+.pageHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    padding: 5em;
+    font-weight: 900;
+}
+
+.list{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around
+}
+
+.shop {
+font-style: italic;
+text-align: center;
+border: 1px solid #111111;
+padding: 1em;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center; 
+align-items: center;
+}
+
+.shop {      
+    width: 150px;
+    height: 15px;
+    display: inline-block;
+    overflow: hidden; 
+    margin: 1;
+  }
+
+  /* flex-basis: 5%;
