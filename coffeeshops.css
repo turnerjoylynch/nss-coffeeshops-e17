@@ -1,6 +1,6 @@
 body {
-    font-family: sans-serif;
-    background-color: #da9f79;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
   }
 .pageHeader {
     display: flex;
@@ -10,6 +10,10 @@ body {
     font-weight: 900;
 }
 
+/* I played around with what . properties to use for these {} sections (list, shop).
+I am not sure what the proper sectioning is for these sections - should they all be in the same curly bracket? 
+Should they be broken out by different styling elements (and if so, how should they be grouped?)*/
+
 .list{
     display: flex;
     flex-wrap:wrap;
@@ -17,23 +21,19 @@ body {
 }
 
 .shop {
-font-style: italic;
-text-align: center;
-border: 1px solid #111111;
-padding: 1em;
-display: flex;
+text-align: left;
+border: 1px dashed #111111;
+padding: .5em;
 flex-direction: column;
 flex-wrap: wrap;
-justify-content: center; 
+justify-content: left; 
 align-items: center;
+margin: 0;
 }
 
 .shop {      
-    width: 150px;
-    height: 15px;
+    width: 200px;
+    height: 10px;
     display: inline-block;
     overflow: hidden; 
-    margin: 1;
   }
-
-  /* flex-basis: 5%;
